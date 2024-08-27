@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-samplework"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_consolidated_container_blob_connectionString": {
+			"value": ""
+		},
+		"LS_input_blob_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "mysqldb-server.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "mysqldb-sample"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "mysqldb"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
