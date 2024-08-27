@@ -24,13 +24,15 @@
 			"transformations": [
 				{
 					"name": "derivedColumn1",
-					"description": "Creating/updating the columns 'OrderID, ProductID, ProductName, Quantity, OrderTimestamp, Price, CustomerID, Individual Price"
+					"description": "Add Individual Price\n"
 				},
 				{
-					"name": "derivedColumn2"
+					"name": "derivedColumn2",
+					"description": "Update Quantity Value"
 				},
 				{
-					"name": "derivedColumn3"
+					"name": "derivedColumn3",
+					"description": "Add New Price\n"
 				}
 			],
 			"scriptLines": [
